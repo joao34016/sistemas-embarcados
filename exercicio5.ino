@@ -1,16 +1,16 @@
-#define pin_led1 8    //definindo pino 8 como led1
-#define pin_led2 9    //definindo pino 9 como led2
-#define pin_led3 10   //definindo pino 10 como led3
-#define pin_led4 11   //definindo pino 11 como led4
+#define pin_led1 8    
+#define pin_led2 9    
+#define pin_led3 10   
+#define pin_led4 11   
 
 
 
 void setup() {
-  Serial.begin(9600);          //define a velocidade da comunicação
-  pinMode (pin_led1, OUTPUT);  //definindo led1 saida
-  pinMode (pin_led2, OUTPUT);  //definindo led2 saida
-  pinMode (pin_led3, OUTPUT);  //definindo led3 saida
-  pinMode (pin_led4, OUTPUT);  //definindo led4 saida
+  Serial.begin(9600);          
+  pinMode (pin_led1, OUTPUT);  
+  pinMode (pin_led2, OUTPUT);  
+  pinMode (pin_led3, OUTPUT);  
+  pinMode (pin_led4, OUTPUT);  
 }
 
 void loop() {
