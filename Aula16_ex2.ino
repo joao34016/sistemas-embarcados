@@ -14,8 +14,8 @@ void setup() {
 
   pinMode(ledH, OUTPUT);
   pinMode(ledL, OUTPUT);
-  pinMode(ledH, OUTPUT);
-  pinMode(ledL, OUTPUT);
+  pinMode(ledBomba, OUTPUT);
+  pinMode(ledAlarme, OUTPUT);
 
 }
 
